@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.app{
+  height: 80%;
+  width: 80%;
+  background-color: #fff;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.app button{
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-top: 90px;
+  margin-left: 90px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.component h3{
+  margin-left: 80px;
+  margin-top: 30px;
+}
+nav{
+  height: 50px;
+  width: 95%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
