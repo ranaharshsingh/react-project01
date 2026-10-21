@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.cards{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card1{
+     height: 400px;
+     width: 300px;
+     background-color: cadetblue;
+      border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
+.card2{
+    height: 400px;
+    width: 300px;
+    background-color: crimson; 
+    border: 1px solid black;
+    box-shadow: 0 0 5px black;
+}
