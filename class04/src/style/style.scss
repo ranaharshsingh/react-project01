@@ -22,7 +22,7 @@ html,body{
     height: 400px;
     width: 300px;
     background-color: rgb(33, 201, 207);
-    
+    border-radius: 10px;
     position: relative;
     .image{
     height: 80px;
@@ -47,6 +47,7 @@ html,body{
     width: 300px;
    background-color: salmon;
    position: relative;
+   border-radius: 10px;
    .image{
     padding-top: 5px;
     height: 80px;
@@ -71,6 +72,7 @@ html,body{
     height: 80px;
     width:100% ;
     background: linear-gradient(to bottom, rgb(42, 50, 53) ,transparent 100%,80%, black 10%, transparent 100%);
+    border-radius: 10px;
 
 }
 h3{
