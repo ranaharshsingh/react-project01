@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.593);
+}
+h1{
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  color: blue;
+  text-transform: capitalize;
+}
+h2{
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  color: blue;
+  text-transform: capitalize;
+}
+ a{
+  padding: 10px;
+  height: 20px;
+  width: 100%;
+  color: black;
+  background-color: cadetblue;
+  
+   
+} 
+.nav{
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(223, 113, 131);
+}
