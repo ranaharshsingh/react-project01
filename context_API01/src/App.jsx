@@ -1,18 +1,14 @@
-import React from 'react'
-import axios from 'axios'
-
-
+import React, { useState } from 'react'
+import { Usercontext } from './component/UserContext'
+import Navbar from './component/Navbar'
 const App = () => {
-  const getData=async()=>{
-
-   const response=await axios.get('http://localhost:8000/data')
-   console.log(response);
-  }
+    const user="harsh";
+    
   return (
-    <div>
-      <button onClick={getData}>click</button>
-    </div>
-  )
+    <Usercontext.Provider value={user}>
+      <Navbar  />
+    </Usercontext.Provider>
+  );
 }
 
 export default App
