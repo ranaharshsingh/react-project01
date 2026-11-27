@@ -4,7 +4,7 @@ const places = [
   { id: 3, name: "Dubai", country: "UAE" },
 ];
 
-function Destinations() {
+function Destination() {
   return (
     <div>
       <h1>Destinations</h1>
@@ -19,4 +19,4 @@ function Destinations() {
   );
 }
 
-export default Destinations;
+export default Destination;

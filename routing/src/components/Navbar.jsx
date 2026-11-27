@@ -5,12 +5,12 @@ function Navbar() {
     <nav className="navbar">
       <h2>Tripco.</h2>
 
-      <div className="nav-links">
+       <div className="nav-links">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/destinations">Destinations</NavLink>
         <NavLink to="/profile/101">Profile</NavLink>
-      </div>
+      </div> 
     </nav>
   );
 }

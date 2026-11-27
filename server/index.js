@@ -7,7 +7,7 @@ app.get('/data',(req,res)=>{
         age:20
     }
 ]
-res.setHeader('Access-Control-Allow-Origin','http://localhost:5173').json({data:dummy})
+res.setHeader('Access-Control-Allow-Origin','http://localhost:8000').json({data:dummy})
 // res.setHeader('access_contact')
 //     res.send("hello guys")
 })
